@@ -20,7 +20,7 @@ def index():
         "xff_chain_count": len(xff_chain),
         "x_real_ip": request.headers.get("X-Real-IP"),
         "x_forwarded_proto": request.headers.get("X-Forwarded-Proto"),
-        "host": request.headers.get("Host")
+        "host": request.headers.get("Host"),
     })
 
 
